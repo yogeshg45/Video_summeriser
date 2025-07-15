@@ -1,0 +1,113 @@
+Transpose of a Matrix and Basic Matrix Operations
+The lecture explains the transpose of a matrix in a simple and understandable manner. Here's a step-by-step breakdown:
+
+1. What is the transpose of a matrix?
+Transpose means converting rows into columns and columns into rows.
+
+There is no calculation involved — it’s just rearranging.
+
+Example:
+A given matrix
+
+makefile
+Copy
+Edit
+E = | 2   1   3 |
+    | 4  -7   8 |
+    | 6   9 -10 |
+Rows: R1, R2, R3
+
+Columns: C1, C2, C3
+Transpose (Eᵗ):
+
+markdown
+Copy
+Edit
+Eᵗ = | 2   4   6 |
+     | 1  -7   9 |
+     | 3   8 -10 |
+2. How to transpose any matrix:
+Take each column and write it as a row.
+
+Example:
+
+Column 1 → Row 1
+
+Column 2 → Row 2
+
+Column 3 → Row 3
+
+3. Transpose Examples with Two Matrices
+Given:
+
+java
+Copy
+Edit
+Matrix A = |  2  -3   4 |
+           |  1   5   6 |
+           |  7   8  -5 |
+
+Matrix B = |  2  -8   9 |
+           |  1   5   4 |
+           |  2   3  -8 |
+Transpose them:
+
+markdown
+Copy
+Edit
+Aᵗ = | 2   1   7 |
+      |-3   5   8 |
+      | 4   6  -5 |
+
+Bᵗ = | 2   1   2 |
+      |-8   5   3 |
+      | 9   4  -8 |
+4. Proof: (A + B)ᵗ = Aᵗ + Bᵗ
+To verify this identity, use two small 2×2 matrices:
+
+makefile
+Copy
+Edit
+A = |  1   2 |
+    | -1   4 |
+
+B = |  5   8 |
+    | -4   6 |
+Step 1: Calculate (A + B)ᵗ
+Add matrices:
+
+markdown
+Copy
+Edit
+A + B = |  6  10 |
+        | -5  10 |
+Transpose it:
+
+markdown
+Copy
+Edit
+(A + B)ᵗ = |  6  -5 |
+           | 10  10 |
+Step 2: Calculate Aᵗ + Bᵗ
+Aᵗ =
+
+Copy
+Edit
+|  1  -1 |
+|  2   4 |
+Bᵗ =
+
+Copy
+Edit
+|  5  -4 |
+|  8   6 |
+Add them:
+
+markdown
+Copy
+Edit
+Aᵗ + Bᵗ = |  6  -5 |
+           | 10  10 |
+Conclusion:
+Both sides are equal →
+(A + B)ᵗ = Aᵗ + Bᵗ is proven with a simple example.

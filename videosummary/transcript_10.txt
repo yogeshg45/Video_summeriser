@@ -1,0 +1,164 @@
+Concept: Rotation of a point (x, y) by an angle θ
+Suppose you have a point P with coordinates 
+(
+𝑥
+,
+𝑦
+)
+(x,y) in the original coordinate system.
+
+When you rotate the coordinate system (or the point) by an angle 
+𝜃
+θ, the new coordinates 
+(
+𝑋
+,
+𝑌
+)
+(X,Y) of the point in the rotated system can be found using the rotation matrix:
+
+[
+𝑋
+𝑌
+]
+=
+[
+cos
+⁡
+𝜃
+sin
+⁡
+𝜃
+−
+sin
+⁡
+𝜃
+cos
+⁡
+𝜃
+]
+[
+𝑥
+𝑦
+]
+[ 
+X
+Y
+​
+ ]=[ 
+cosθ
+−sinθ
+​
+  
+sinθ
+cosθ
+​
+ ][ 
+x
+y
+​
+ ]
+The inverse rotation matrix is:
+
+𝑇
+−
+1
+=
+[
+cos
+⁡
+𝜃
+−
+sin
+⁡
+𝜃
+sin
+⁡
+𝜃
+cos
+⁡
+𝜃
+]
+T 
+−1
+ =[ 
+cosθ
+sinθ
+​
+  
+−sinθ
+cosθ
+​
+ ]
+Explanation with example:
+If 
+𝜃
+=
+45
+∘
+θ=45 
+∘
+  (which is 
+𝜋
+/
+4
+π/4 radians),
+
+And the original point coordinates are 
+(
+𝑥
+,
+𝑦
+)
+=
+(
+2
+,
+2
+)
+(x,y)=( 
+2
+​
+ , 
+2
+​
+ ),
+
+The rotated coordinates 
+(
+𝑋
+,
+𝑌
+)
+(X,Y) can be computed by multiplying the rotation matrix with the point vector.
+
+Geometrical interpretation:
+The angle between the original axis and the rotated axis is 
+𝜃
+θ.
+
+The length of the vector (distance from origin to the point) remains the same, only its direction changes.
+
+Using the rotation matrix allows us to find the new coordinates in the rotated system without manually calculating trigonometric projections.
+
+Summary:
+Rotation in 2D can be represented as a matrix multiplication.
+
+Coordinates after rotation = Rotation matrix 
+×
+× original coordinates.
+
+Rotation matrix for angle 
+𝜃
+θ uses 
+cos
+⁡
+𝜃
+cosθ and 
+sin
+⁡
+𝜃
+sinθ.
+
+This method is widely used in graphics, physics, robotics, and engineering to manipulate points and objects.
+

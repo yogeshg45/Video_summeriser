@@ -1,0 +1,50 @@
+ Matrix-Related Concepts Identified in the Text
+Matrix Structure:
+
+A matrix is a rectangular arrangement of numbers in rows and columns.
+
+Elements are referred to based on their position (row, column).
+
+Diagonal Elements:
+
+Special mention of elements that lie on the diagonal from top-left to bottom-right.
+
+Diagonal elements are important in determining matrix types and operations.
+
+Row Operations and Repetition:
+
+Multiple references to row-wise changes.
+
+Emphasis on repeating row-based transformation ("row change" repeated for effect).
+
+Matrix Equality:
+
+Two matrices are said to be equal if and only if:
+
+They have the same order (same number of rows and columns).
+
+Corresponding elements in both matrices are equal.
+
+Triangular Matrices:
+
+Upper Triangular Matrix:
+
+A matrix where all elements below the diagonal are zero.
+
+Lower Triangular Matrix:
+
+A matrix where all elements above the diagonal are zero.
+
+Mentioned for comparing structures and identifying properties visually.
+
+Square Matrix:
+
+A matrix with equal number of rows and columns.
+
+Often used to define triangular matrices.
+
+Matrix Comparison:
+
+Visual observation used to determine if a matrix is upper or lower triangular.
+
+Structural comparison of multiple matrices.

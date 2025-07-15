@@ -1,0 +1,60 @@
+Math Word Problem (Core Part)
+A person is trying to solve a word problem involving two unknowns, typically framed like:
+
+2x + y = 70
+
+x + y = 60
+
+They solve it by elimination or substitution:
+
+From x + y = 60, isolate y = 60 - x
+
+Substitute into the first:
+2x + (60 - x) = 70 → x = 10
+
+Then y = 50
+
+Interpretation:
+
+x represents the cost or count of one item (e.g., one "song" or "performance")
+
+y represents another (e.g., a package or combo)
+
+Thus:
+
+One item costs 10
+
+Another item costs 50
+
+Another similar problem:
+
+x + y = 93
+
+x - y = 5
+
+Solution:
+
+Add both: 2x = 98 → x = 49
+
+Then y = 44
+
+Interpretation:
+
+Possibly related to Latha’s parents' ages:
+
+Father = 49
+
+Mother = 44
+
+🔹 Additional Insights
+There’s a casual conversation setting with someone buying items (possibly songs or products).
+
+The speaker repeatedly tries to explain solving simultaneous equations.
+
+They reference using substitution and elimination to solve for x and y.
+
+There’s mention of “Latha’s father” and “Latha’s mother,” used as an example for age-related algebra.
+
+🔹 Summary Statement
+The speaker is teaching or explaining how to solve systems of linear equations (simultaneous equations) in a practical, conversational Tamil context—using real-life examples like buying items or calculating ages. They use substitution and elimination methods to find values for x and y and relate them back to real-world interpretations like item prices or people's ages.
+

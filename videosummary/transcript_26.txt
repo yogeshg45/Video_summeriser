@@ -1,0 +1,38 @@
+🔹 1. Matrix Definition
+A matrix is a rectangular array of numbers arranged in rows and columns.
+
+Example mentioned: a 3x3 matrix (3 rows and 3 columns).
+
+🔹 2. Rows and Columns
+First row, second row, third row
+
+First column, second column, third column
+→ Understanding how to refer to individual elements in a matrix using their row and column positions.
+
+🔹 3. Diagonal Elements
+Elements from top-left to bottom-right in a square matrix:
+
+Position (1,1), (2,2), (3,3), etc.
+
+These are often important in calculations (e.g., in trace, determinant, identity matrix, etc.)
+
+🔹 4. Zero Elements
+Mention of 0 values in a matrix:
+
+Important when discussing matrix invertibility or sparsity.
+
+A matrix with a row or column full of zeros can be non-invertible (singular).
+
+🔹 5. Matrix Operations (Implied)
+Matrix inversion conditions: can’t invert if determinant is 0 or if matrix has problematic zero rows/columns.
+
+Accessing specific elements based on row and column indexes.
+
+Diagonal elements play roles in certain properties (e.g., in identity matrix: only diagonal is 1, rest 0).
+
+🔹 6. Use in Image Processing (Contextual)
+Images can be represented as matrices (especially grayscale or RGB images):
+
+Each pixel value is stored as a number in a matrix.
+
+RGB images are typically represented by 3 matrices: one for Red, one for Green, one for Blue.

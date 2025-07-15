@@ -1,0 +1,434 @@
+1. Rotation of a Point in the Plane
+Rotation Matrix by angle θ (counter-clockwise):
+
+𝑅
+(
+𝜃
+)
+=
+(
+cos
+⁡
+𝜃
+−
+sin
+⁡
+𝜃
+sin
+⁡
+𝜃
+cos
+⁡
+𝜃
+)
+.
+R(θ)=( 
+cosθ
+sinθ
+​
+  
+−sinθ
+cosθ
+​
+ ).
+To rotate a point 
+(
+𝑥
+,
+𝑦
+)
+(x,y) into new coordinates 
+(
+𝑋
+,
+𝑌
+)
+(X,Y):
+
+(
+𝑋
+𝑌
+)
+=
+𝑅
+(
+𝜃
+)
+ 
+(
+𝑥
+𝑦
+)
+.
+( 
+X
+Y
+​
+ )=R(θ)( 
+x
+y
+​
+ ).
+For example, with 
+𝜃
+=
+45
+°
+θ=45° and 
+(
+𝑥
+,
+𝑦
+)
+=
+(
+2
+,
+2
+)
+(x,y)=( 
+2
+​
+ , 
+2
+​
+ ), you plug into the matrix to get the rotated 
+(
+𝑋
+,
+𝑌
+)
+(X,Y).
+
+2. Systems of Three Linear Equations in Three Unknowns
+A general non-homogeneous system
+
+{
+𝑎
+1
+𝑥
++
+𝑏
+1
+𝑦
++
+𝑐
+1
+𝑧
+=
+𝑑
+1
+,
+𝑎
+2
+𝑥
++
+𝑏
+2
+𝑦
++
+𝑐
+2
+𝑧
+=
+𝑑
+2
+,
+𝑎
+3
+𝑥
++
+𝑏
+3
+𝑦
++
+𝑐
+3
+𝑧
+=
+𝑑
+3
+,
+⎩
+⎨
+⎧
+​
+  
+a 
+1
+​
+ x+b 
+1
+​
+ y+c 
+1
+​
+ z=d 
+1
+​
+ ,
+a 
+2
+​
+ x+b 
+2
+​
+ y+c 
+2
+​
+ z=d 
+2
+​
+ ,
+a 
+3
+​
+ x+b 
+3
+​
+ y+c 
+3
+​
+ z=d 
+3
+​
+ ,
+​
+ 
+can have
+
+A unique solution if the coefficient‐determinant 
+Δ
+≠
+0
+Δ
+
+=0.
+
+Infinitely many solutions if 
+Δ
+=
+0
+Δ=0 but all three “augmented” determinants 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+  also vanish.
+
+No solution if 
+Δ
+=
+0
+Δ=0 yet at least one of 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+≠
+0
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+ 
+
+=0.
+
+3. Worked-Out Parameter Problems
+(a) Infinitely Many Solutions ⇒ Find a Parameter
+System
+
+{
+𝑥
++
+𝑦
++
+𝑧
+=
+6
+,
+2
+𝑥
++
+5
+𝑦
++
+𝛼
+𝑧
+=
+𝛽
+,
+𝑥
++
+2
+𝑦
++
+3
+𝑧
+=
+14
+⎩
+⎨
+⎧
+​
+  
+x+y+z=6,
+2x+5y+αz=β,
+x+2y+3z=14
+​
+ 
+has infinitely many solutions exactly when
+
+Δ
+=
+0
+Δ=0, and
+
+Δ
+𝑥
+=
+Δ
+𝑦
+=
+Δ
+𝑧
+=
+0
+Δ 
+x
+​
+ =Δ 
+y
+​
+ =Δ 
+z
+​
+ =0.
+Expanding these determinants gives two equations in 
+𝛼
+α and 
+𝛽
+β. Solving them yields
+
+𝛼
+=
+8
+,
+𝛽
+=
+36
+,
+so
+𝛼
++
+𝛽
+=
+44.
+α=8,β=36,soα+β=44.
+(b) No Solution ⇒ Find a Parameter
+System
+
+{
+3
+𝑥
+−
+2
+𝑦
++
+𝑧
+=
+𝐵
+,
+5
+𝑥
+−
+8
+𝑦
++
+9
+𝑧
+=
+3
+,
+2
+𝑥
++
+𝑦
++
+𝑧
+=
+−
+1
+⎩
+⎨
+⎧
+​
+  
+3x−2y+z=B,
+5x−8y+9z=3,
+2x+y+z=−1
+​
+ 
+has no solution exactly when
+
+Δ
+=
+0
+Δ=0, and
+
+at least one of 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+≠
+0
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+ 
+
+=0.
+Computing 
+Δ
+=
+0
+Δ=0 gives 
+𝐵
+=
+−
+3
+B=−3.

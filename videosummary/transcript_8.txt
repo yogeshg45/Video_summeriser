@@ -1,0 +1,365 @@
+Characteristic Polynomial
+For an 
+𝑛
+×
+𝑛
+n×n matrix 
+𝐴
+A, its characteristic equation is
+
+det
+⁡
+(
+𝐴
+−
+𝜆
+𝐼
+)
+=
+0.
+det(A−λI)=0.
+In the 2×2 case one gets
+𝜆
+2
+−
+(
+tr
+⁡
+𝐴
+)
+ 
+𝜆
++
+det
+⁡
+𝐴
+=
+0.
+λ 
+2
+ −(trA)λ+detA=0.
+
+In the 3×3 case
+𝜆
+3
+−
+(
+tr
+⁡
+𝐴
+)
+ 
+𝜆
+2
++
+𝐷
+2
+ 
+𝜆
+−
+det
+⁡
+𝐴
+=
+0
+,
+λ 
+3
+ −(trA)λ 
+2
+ +D 
+2
+​
+ λ−detA=0,
+where 
+𝐷
+2
+D 
+2
+​
+  is the sum of the principal 2×2 minors (i.e.\ the sum of “
+−
+−” of each pair of diagonal entries).
+
+Trace and Determinant
+
+tr
+⁡
+𝐴
+trA = sum of diagonal entries.
+
+det
+⁡
+𝐴
+detA = usual determinant.
+
+Using the Characteristic Equation to Solve Matrix Equations
+If 
+𝐴
+A satisfies
+
+𝛼
+ 
+𝐴
+2
+  
++
+  
+𝛽
+ 
+𝐴
+  
+=
+  
+2
+𝐼
+,
+αA 
+2
+ +βA=2I,
+one substitutes 
+𝐴
+A for 
+𝜆
+λ in its characteristic polynomial
+(i.e.\ uses Cayley–Hamilton) to express 
+𝐴
+2
+A 
+2
+  and 
+𝐴
+A in terms of 
+𝐼
+I.
+Comparing coefficients then gives 
+𝛼
++
+𝛽
+α+β.
+
+Example
+For
+
+𝐴
+=
+(
+1
+2
+−
+2
+−
+5
+)
+,
+𝐴
+2
+𝛼
++
+𝐴
+𝛽
+=
+2
+𝐼
+,
+A=( 
+1
+−2
+​
+  
+2
+−5
+​
+ ),A 
+2
+ α+Aβ=2I,
+one finds 
+tr
+⁡
+𝐴
+=
+−
+4
+trA=−4, 
+det
+⁡
+𝐴
+=
+−
+1
+detA=−1, so the characteristic equation is
+𝜆
+2
++
+4
+𝜆
+−
+1
+=
+0
+λ 
+2
+ +4λ−1=0. Plugging 
+𝐴
+A into this yields 
+𝐴
+2
++
+4
+𝐴
+−
+𝐼
+=
+0
+A 
+2
+ +4A−I=0.
+Multiplying by 2 gives 
+2
+𝐴
+2
++
+8
+𝐴
+−
+2
+𝐼
+=
+0
+2A 
+2
+ +8A−2I=0, so 
+𝛼
+=
+2
+,
+  
+𝛽
+=
+8
+α=2,β=8 and 
+𝛼
++
+𝛽
+=
+10
+α+β=10.
+
+Symmetric Matrices & Transpose
+If 
+𝐴
+A and 
+𝐵
+B are symmetric (
+𝐴
+=
+𝐴
+𝑇
+A=A 
+T
+ , 
+𝐵
+=
+𝐵
+𝑇
+B=B 
+T
+ ) and nonsingular, then so are
+
+𝐴
+−
+1
+,
+𝐵
+−
+1
+,
+𝐴
+−
+1
+𝐵
+,
+𝐵
+−
+1
+𝐴
+,
+𝐴
+−
+1
+𝐵
+−
+1
+,
+(
+𝐴
+−
+1
+𝐵
+)
+𝑇
+=
+𝐵
+𝑇
+𝐴
+−
+𝑇
+=
+𝐵
+−
+1
+𝐴
+−
+1
+.
+A 
+−1
+ ,B 
+−1
+ ,A 
+−1
+ B,B 
+−1
+ A,A 
+−1
+ B 
+−1
+ ,(A 
+−1
+ B) 
+T
+ =B 
+T
+ A 
+−T
+ =B 
+−1
+ A 
+−1
+ .
+In fact one shows 
+(
+𝐴
+−
+1
+𝐵
+)
+𝑇
+=
+𝐴
+−
+1
+𝐵
+(A 
+−1
+ B) 
+T
+ =A 
+−1
+ B if and only if 
+𝐴
+𝐵
+=
+𝐵
+𝐴
+AB=BA.

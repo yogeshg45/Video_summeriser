@@ -1,0 +1,18 @@
+This transcript discusses the elementary transformations of matrices and solving systems of linear equations using matrices.
+
+It introduces the idea of representing linear equations in matrix form, where coefficients of variables form the coefficient matrix and constants form another matrix or vector.
+
+The equations are represented as A₁X₁ + A₂X₂ + ... + AₙXₙ = B, where A's are coefficients, X's are variables, and B is the constant term.
+
+The focus is on solving systems of linear equations by matrix methods, particularly by transforming the coefficient matrix using elementary row operations.
+
+Examples of simple linear equations like 2x - y = 0 and -x + 2y = 3 are given, illustrating how these can be put into matrix form and solved.
+
+The transcript touches on visualizing matrices as vectors and solving them graphically or algebraically.
+
+It mentions the importance of conditions that make a system solvable and how transformations help simplify these systems to find solutions.
+
+There is also a reference to checking consistency and the uniqueness of solutions via these matrix methods.
+
+Overall, the transcript explains how to use matrix transformations to solve linear systems, emphasizing the role of elementary row operations and the concept of representing equations in matrix form.
+

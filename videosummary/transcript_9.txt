@@ -1,0 +1,505 @@
+1. Characteristic Equation & Cayley–Hamilton
+Definition: For an 
+𝑛
+×
+𝑛
+n×n matrix 
+𝐴
+A, its characteristic polynomial is
+
+det
+⁡
+(
+𝐴
+−
+𝜆
+𝐼
+)
+=
+0.
+det(A−λI)=0.
+2×2 case:
+𝜆
+2
+−
+(
+t
+r
+ 
+𝐴
+)
+ 
+𝜆
++
+det
+⁡
+𝐴
+=
+0.
+λ 
+2
+ −(trA)λ+detA=0.
+
+t
+r
+ 
+𝐴
+=
+𝑎
+11
++
+𝑎
+22
+trA=a 
+11
+​
+ +a 
+22
+​
+ 
+
+det
+⁡
+𝐴
+=
+𝑎
+11
+𝑎
+22
+−
+𝑎
+12
+𝑎
+21
+detA=a 
+11
+​
+ a 
+22
+​
+ −a 
+12
+​
+ a 
+21
+​
+ 
+
+3×3 case:
+𝜆
+3
+−
+(
+t
+r
+ 
+𝐴
+)
+ 
+𝜆
+2
++
+𝐷
+2
+ 
+𝜆
+−
+det
+⁡
+𝐴
+=
+0
+,
+λ 
+3
+ −(trA)λ 
+2
+ +D 
+2
+​
+ λ−detA=0,
+where 
+𝐷
+2
+D 
+2
+​
+  is the sum of the three principal 2×2 minors.
+
+Use: Plugging 
+𝐴
+A into its own characteristic polynomial (the Cayley–Hamilton theorem) lets you re-express 
+𝐴
+2
+A 
+2
+ , 
+𝐴
+3
+A 
+3
+ , etc., in terms of lower powers and 
+𝐼
+I. This in turn solves matrix equations like
+𝛼
+𝐴
+2
++
+𝛽
+𝐴
+=
+2
+𝐼
+αA 
+2
+ +βA=2I
+by matching coefficients.
+
+2. Determinant Identities
+Scaling: 
+det
+⁡
+(
+𝑘
+𝐴
+)
+=
+𝑘
+𝑛
+ 
+det
+⁡
+𝐴
+det(kA)=k 
+n
+ detA for an 
+𝑛
+×
+𝑛
+n×n matrix.
+
+Adjugate: 
+det
+⁡
+(
+a
+d
+j
+ 
+𝐴
+)
+=
+(
+det
+⁡
+𝐴
+)
+ 
+𝑛
+−
+1
+det(adjA)=(detA) 
+n−1
+ .
+
+Cofactor expansion: Standard 2×2 and 3×3 expansions to compute small determinants.
+
+3. Systems of Linear Equations
+Form:
+
+{
+𝑎
+1
+𝑥
++
+𝑏
+1
+𝑦
++
+𝑐
+1
+𝑧
+=
+𝑑
+1
+,
+𝑎
+2
+𝑥
++
+𝑏
+2
+𝑦
++
+𝑐
+2
+𝑧
+=
+𝑑
+2
+,
+𝑎
+3
+𝑥
++
+𝑏
+3
+𝑦
++
+𝑐
+3
+𝑧
+=
+𝑑
+3
+.
+⎩
+⎨
+⎧
+​
+  
+a 
+1
+​
+ x+b 
+1
+​
+ y+c 
+1
+​
+ z=d 
+1
+​
+ ,
+a 
+2
+​
+ x+b 
+2
+​
+ y+c 
+2
+​
+ z=d 
+2
+​
+ ,
+a 
+3
+​
+ x+b 
+3
+​
+ y+c 
+3
+​
+ z=d 
+3
+​
+ .
+​
+ 
+Classification:
+
+Homogeneous (
+𝑑
+𝑖
+=
+0
+d 
+i
+​
+ =0) vs. non-homogeneous (
+𝑑
+𝑖
+≠
+0
+d 
+i
+​
+ 
+
+=0).
+
+Unique, no, or infinitely many solutions determined by the coefficient-matrix determinant 
+Δ
+Δ and the augmented determinants 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+ .
+
+Cramer’s Rule: When 
+Δ
+≠
+0
+Δ
+
+=0,
+
+𝑥
+=
+Δ
+𝑥
+Δ
+,
+𝑦
+=
+Δ
+𝑦
+Δ
+,
+𝑧
+=
+Δ
+𝑧
+Δ
+.
+x= 
+Δ
+Δ 
+x
+​
+ 
+​
+ ,y= 
+Δ
+Δ 
+y
+​
+ 
+​
+ ,z= 
+Δ
+Δ 
+z
+​
+ 
+​
+ .
+Condition for infinitely many solutions:
+Δ
+=
+0
+Δ=0 but all augmented determinants also vanish (
+Δ
+𝑥
+=
+Δ
+𝑦
+=
+Δ
+𝑧
+=
+0
+Δ 
+x
+​
+ =Δ 
+y
+​
+ =Δ 
+z
+​
+ =0); then there is not one but a one-parameter family of solutions.
+
+4. Special Cases & Applications
+Arithmetic progression in coefficients: When 
+2
+,
+𝑏
+,
+𝑐
+2,b,c are in A.P.\ (
+𝑏
+=
+(
+2
++
+𝑐
+)
+/
+2
+b=(2+c)/2), one can simplify the determinant before solving.
+
+Symmetric matrices (
+𝐴
+𝑇
+=
+𝐴
+A 
+T
+ =A) and their inverses/transposes:
+
+If 
+𝐴
+A and 
+𝐵
+B are symmetric and invertible, then so are 
+𝐴
+−
+1
+A 
+−1
+ , 
+𝐵
+−
+1
+B 
+−1
+ , and products like 
+𝐴
+−
+1
+𝐵
+A 
+−1
+ B; one checks symmetry by 
+(
+𝐴
+−
+1
+𝐵
+)
+𝑇
+=
+𝐵
+𝑇
+𝐴
+−
+𝑇
+=
+𝐵
+−
+1
+𝐴
+−
+1
+(A 
+−1
+ B) 
+T
+ =B 
+T
+ A 
+−T
+ =B 
+−1
+ A 
+−1
+ .
+

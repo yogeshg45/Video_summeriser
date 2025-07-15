@@ -1,0 +1,47 @@
+The transcript begins by introducing a matrix as a rectangular array of numbers arranged in rows and columns, defining its order as “m × n” (m rows and n columns). Special cases include a row matrix (1 × n), a column matrix (m × 1), and a square matrix (n × n). It then covers scalar multiplication, in which every entry of a matrix A is multiplied by a scalar k to produce kA. Next, it defines a diagonal matrix as a square matrix whose only nonzero entries lie on the principal diagonal, and a scalar matrix as a diagonal matrix whose diagonal entries are all equal. A unit (identity) matrix I is the scalar matrix with 1’s on the diagonal and 0’s elsewhere. The transpose of a matrix A (denoted Aᵀ) is obtained by swapping its rows and columns; a square matrix satisfying Aᵀ = A is symmetric, while one satisfying Aᵀ = –A is skew-symmetric. Every square matrix A can be expressed as the sum of a symmetric and a skew-symmetric matrix via 
+(
+𝐴
++
+𝐴
+𝑇
+)
+/
+2
+(A+A 
+T
+ )/2 and 
+(
+𝐴
+–
+𝐴
+𝑇
+)
+/
+2
+(A–A 
+T
+ )/2. The adjoint (or adjugate) of A is the transpose of its cofactor matrix and is used, alongside the determinant of A, to compute the inverse of a non-singular matrix: 
+𝐴
+−
+1
+=
+1
+det
+⁡
+(
+𝐴
+)
+ 
+a
+d
+j
+(
+𝐴
+)
+A 
+−1
+ = 
+det(A)
+1
+​
+ adj(A). Finally, key properties of determinants are highlighted—such as sign change under row swaps, invariance under transposition, and linearity in rows or columns—and applied to solve example problems involving determinants and inverses of 2 × 2 and 3 × 3 matrices.

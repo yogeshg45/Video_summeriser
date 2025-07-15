@@ -1,0 +1,43 @@
+Matrix and Determinant Discussion:
+
+There’s a mention of a matrix and calculating its minor and determinant.
+
+Example: "minor of determinant 451 - 3", "determinant of 152 - 3", and similar lines.
+
+There’s a discussion about a matrix being singular or not (a matrix is singular if its determinant is zero).
+
+You are likely discussing properties of a square matrix like:
+
+If 
+det
+⁡
+(
+𝐴
+)
+=
+0
+⇒
+𝐴
+ is singular (non-invertible)
+.
+If det(A)=0⇒A is singular (non-invertible).
+Repeated Matrix Elements:
+
+Mentions of elements like A, B in combinations: "A, B, B, A, B, A..." etc.
+
+Possibly a matrix pattern or repetition being described.
+
+Confusion or Frustration:
+
+Sentences like:
+
+"Is this a question?", "Say it!", "Why?", "Tell properly", "Is this correct?",
+suggesting a tone of frustration or rhetorical confusion—perhaps during an explanation.
+
+Mixed-up Words and Repetition:
+
+The text later becomes completely entangled with:
+
+Repetition like "நாம் நாம் நாம்…" ("We we we…")
+
+Random names, programming/tech terms, and possibly nonsense words.

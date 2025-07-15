@@ -1,0 +1,233 @@
+Over several examples you repeatedly compute determinants by cofactor‐expansion (e.g.\ for a 2×2 matrix 
+𝐴
+A, 
+det
+⁡
+𝐴
+=
+𝑎
+11
+𝑎
+22
+−
+𝑎
+12
+𝑎
+21
+detA=a 
+11
+​
+ a 
+22
+​
+ −a 
+12
+​
+ a 
+21
+​
+ ) and then apply two key determinant identities:
+
+Scaling a matrix: for an 
+𝑛
+×
+𝑛
+n×n matrix 
+𝐴
+A and scalar 
+𝑘
+k,
+
+det
+⁡
+(
+𝑘
+𝐴
+)
+  
+=
+  
+𝑘
+𝑛
+ 
+det
+⁡
+(
+𝐴
+)
+.
+det(kA)=k 
+n
+ det(A).
+In particular, with 
+det
+⁡
+𝐴
+=
+4
+detA=4 for a 2×2 
+𝐴
+A, one finds
+det
+⁡
+(
+2
+𝐴
+)
+=
+2
+2
+⋅
+4
+=
+16
+det(2A)=2 
+2
+ ⋅4=16.
+
+Adjugate (adjoint) determinant: for an 
+𝑛
+×
+𝑛
+n×n matrix 
+𝐴
+A,
+
+det
+⁡
+(
+a
+d
+j
+ 
+𝐴
+)
+  
+=
+  
+(
+det
+⁡
+𝐴
+)
+ 
+𝑛
+−
+1
+.
+det(adjA)=(detA) 
+n−1
+ .
+You then set up an equation of the form
+
+det
+⁡
+(
+a
+d
+j
+(
+2
+𝐴
+)
+)
+  
+=
+  
+16
+𝑛
+det(adj(2A))=16 
+n
+ 
+and, using 
+det
+⁡
+(
+2
+𝐴
+)
+=
+16
+det(2A)=16 and the above adjugate formula (
+𝑛
+−
+1
+n−1=1 when 
+𝑛
+=
+2
+n=2), solve for the exponent 
+𝑛
+n.
+
+Other nuggets include:
+
+Recognizing cubic roots of unity from 
+𝑥
+2
++
+𝑥
++
+1
+=
+0
+x 
+2
+ +x+1=0 and using their sum and product properties when they appear as determinant entries.
+
+Exploiting arithmetic‐progression relations (e.g.\ if 
+2
+,
+𝑏
+,
+𝑐
+2,b,c are in A.P.\ then 
+𝑏
+=
+(
+2
++
+𝑐
+)
+/
+2
+b=(2+c)/2) to simplify more complicated 3×3 determinants.
+
+Using AM–GM or perfect‐square factorizations to bound expressions arising from parameterized determinants.
+
+Across all these, the core toolkit is (1) determinant expansion, (2) the scaling law 
+det
+⁡
+(
+𝑘
+𝐴
+)
+=
+𝑘
+𝑛
+det
+⁡
+𝐴
+det(kA)=k 
+n
+ detA, and (3) the adjugate formula 
+det
+⁡
+(
+a
+d
+j
+𝐴
+)
+=
+(
+det
+⁡
+𝐴
+)
+𝑛
+−
+1
+det(adjA)=(detA) 
+n−1
+ .

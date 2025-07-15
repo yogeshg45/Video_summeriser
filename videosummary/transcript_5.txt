@@ -1,0 +1,27 @@
+For the matrix
+
+$$
+M(x)=\begin{pmatrix}
+\cos x & \sin x & \sin x\\
+\sin x & \cos x & \sin x\\
+\sin x & \sin x & \cos x
+\end{pmatrix},
+$$
+
+one shows by direct factorization that
+
+$$
+\det M(x) \;=\; (\cos x + 2\sin x)\,(\cos x - \sin x)^2.
+$$
+
+On $[-\,\tfrac{\pi}{4},\,\tfrac{\pi}{4}]$, this vanishes precisely when either
+
+1. **$\cos x - \sin x=0$**, i.e.\ $\tan x=1$, giving $x=\tfrac\pi4$;
+2. **$\cos x +2\sin x=0$**, i.e.\ $\tan x=-\tfrac12$, giving
+
+   $$
+   x=\arctan\bigl(-\tfrac12\bigr)\approx -0.4636\,.
+   $$
+
+Both of these lie in the closed interval, and no other solutions occur there.
+**Hence there are exactly two distinct real roots.**

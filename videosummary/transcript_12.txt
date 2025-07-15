@@ -1,0 +1,52 @@
+There is a story about two people, Raja and Ramesh, who communicate secretly by writing messages on a paper in a language that only they understand. They encode their message using a cipher technique with matrices (Hill cipher).
+
+They use a 3x3 key matrix (the cipher key).
+
+The original message is converted into numbers (e.g., A=0, B=1, ..., Z=25).
+
+The message is arranged into a matrix form (plain text matrix).
+
+The cipher text matrix is obtained by multiplying the key matrix with the plain text matrix.
+
+To decrypt, you multiply the cipher text matrix by the inverse of the key matrix (key inverse).
+
+The inverse matrix must be calculated modulo 26 to retrieve the original numbers.
+
+After multiplication, the numbers map back to letters to reveal the original message.
+
+The example includes:
+
+Key matrix (3x3) given.
+
+Plain text matrix.
+
+Cipher text matrix (result after multiplication).
+
+Calculation of the inverse key matrix.
+
+Decryption by multiplying cipher text matrix with inverse key matrix to get back the plain text.
+
+This method helps Raja and Ramesh to keep their communication secret so that no one else can understand it.
+
+What is the Hill Cipher?
+The Hill cipher is a classical encryption technique based on linear algebra:
+
+Uses matrix multiplication modulo the size of the alphabet (usually 26).
+
+Requires a key matrix that must be invertible modulo 26.
+
+Encryption: Ciphertext = (Key matrix) × (Plaintext matrix) mod 26
+
+Decryption: Plaintext = (Inverse key matrix) × (Ciphertext matrix) mod 26
+
+Example steps:
+Assign each letter a number (A=0, B=1, ..., Z=25).
+
+Convert the plaintext into a vector or matrix form.
+
+Multiply the plaintext matrix by the key matrix modulo 26 to get the ciphertext.
+
+To decrypt, multiply the ciphertext matrix by the inverse of the key matrix modulo 26.
+
+Convert the resulting numbers back into letters.
+

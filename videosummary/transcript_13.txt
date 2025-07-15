@@ -1,0 +1,974 @@
+1. Systems of Linear Equations: Classification
+Consider a system of 
+𝑛
+n linear equations in 
+𝑛
+n unknowns
+
+{
+𝐴
+11
+𝑥
++
+𝐴
+12
+𝑦
++
+𝐴
+13
+𝑧
++
+⋯
+=
+𝐷
+1
+,
+𝐴
+21
+𝑥
++
+𝐴
+22
+𝑦
++
+𝐴
+23
+𝑧
++
+⋯
+=
+𝐷
+2
+,
+⋮
+⎩
+⎨
+⎧
+​
+  
+A 
+11
+​
+ x+A 
+12
+​
+ y+A 
+13
+​
+ z+⋯=D 
+1
+​
+ ,
+A 
+21
+​
+ x+A 
+22
+​
+ y+A 
+23
+​
+ z+⋯=D 
+2
+​
+ ,
+⋮
+​
+ 
+Homogeneous if all 
+𝐷
+𝑖
+=
+0
+D 
+i
+​
+ =0.
+
+Always has the trivial solution 
+𝑥
+=
+𝑦
+=
+𝑧
+=
+⋯
+=
+0
+x=y=z=⋯=0.
+
+Unique solution (only the trivial one) iff 
+det
+⁡
+(
+𝐴
+)
+≠
+0
+det(A)
+
+=0.
+
+Infinitely many nontrivial solutions iff 
+det
+⁡
+(
+𝐴
+)
+=
+0
+det(A)=0.
+
+Non-homogeneous if at least one 
+𝐷
+𝑖
+≠
+0
+D 
+i
+​
+ 
+
+=0.
+Denote by 
+Δ
+=
+det
+⁡
+(
+𝐴
+)
+Δ=det(A). Let 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+  be the determinants formed by replacing the corresponding column of 
+𝐴
+A with the right-hand side vector 
+(
+𝐷
+1
+,
+𝐷
+2
+,
+…
+ 
+)
+(D 
+1
+​
+ ,D 
+2
+​
+ ,…).
+
+Unique solution iff 
+Δ
+≠
+0
+Δ
+
+=0. Then 
+𝑥
+=
+Δ
+𝑥
+/
+Δ
+x=Δ 
+x
+​
+ /Δ, etc.
+
+Infinitely many solutions iff 
+Δ
+=
+0
+Δ=0 and 
+Δ
+𝑥
+=
+Δ
+𝑦
+=
+Δ
+𝑧
+=
+⋯
+=
+0
+Δ 
+x
+​
+ =Δ 
+y
+​
+ =Δ 
+z
+​
+ =⋯=0.
+
+No solution (inconsistent) iff 
+Δ
+=
+0
+Δ=0 but at least one of 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+…
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,… is nonzero.
+
+2. Worked Examples
+Example 1 (Two variables, no solution)
+Solve
+
+{
+(
+𝑘
++
+1
+)
+𝑥
++
+8
+𝑦
+=
+4
+𝑘
+,
+𝑘
+𝑥
++
+(
+𝑘
++
+3
+)
+𝑦
+=
+3
+𝑘
+−
+1
+,
+{ 
+(k+1)x+8y=4k,
+kx+(k+3)y=3k−1,
+​
+ 
+and find all real 
+𝑘
+k for which there is no solution.
+
+Coefficient determinant:
+
+Δ
+  
+=
+  
+det
+⁡
+(
+𝑘
++
+1
+8
+𝑘
+𝑘
++
+3
+)
+  
+=
+  
+(
+𝑘
++
+1
+)
+(
+𝑘
++
+3
+)
+−
+8
+𝑘
+  
+=
+  
+(
+𝑘
+−
+1
+)
+(
+𝑘
+−
+3
+)
+.
+Δ=det( 
+k+1
+k
+​
+  
+8
+k+3
+​
+ )=(k+1)(k+3)−8k=(k−1)(k−3).
+For “no solution” we need 
+Δ
+=
+0
+Δ=0 but 
+Δ
+𝑥
+≠
+0
+Δ 
+x
+​
+ 
+
+=0 or 
+Δ
+𝑦
+≠
+0
+Δ 
+y
+​
+ 
+
+=0.
+
+Δ
+=
+0
+Δ=0 ⇒ 
+𝑘
+=
+1
+k=1 or 
+𝑘
+=
+3
+k=3.
+
+Test 
+𝑘
+=
+1
+k=1: one finds 
+Δ
+𝑥
+=
+Δ
+𝑦
+=
+0
+Δ 
+x
+​
+ =Δ 
+y
+​
+ =0 ⇒ infinitely many solutions.
+
+Test 
+𝑘
+=
+3
+k=3: one finds, say, 
+Δ
+𝑥
+≠
+0
+Δ 
+x
+​
+ 
+
+=0. ⇒ no solution.
+
+Answer: only 
+𝑘
+=
+3
+k=3.
+
+Example 2 (Three variables, no solution)
+Solve
+
+{
+𝑥
++
+𝑎
+𝑦
++
+𝑧
+=
+3
+,
+𝑥
++
+2
+𝑦
++
+2
+𝑧
+=
+6
+,
+𝑥
++
+5
+𝑦
++
+3
+𝑧
+=
+𝑏
+,
+⎩
+⎨
+⎧
+​
+  
+x+ay+z=3,
+x+2y+2z=6,
+x+5y+3z=b,
+​
+ 
+and find all real 
+𝑎
+,
+𝑏
+a,b for which there is no solution.
+
+Δ
+=
+det
+⁡
+ ⁣
+(
+1
+𝑎
+1
+1
+2
+2
+1
+5
+3
+)
+Δ=det 
+​
+  
+1
+1
+1
+​
+  
+a
+2
+5
+​
+  
+1
+2
+3
+​
+  
+​
+ . Expanding gives
+
+Δ
+=
+(
+1
+)
+(
+2
+⋅
+3
+−
+2
+⋅
+5
+)
+−
+𝑎
+(
+1
+⋅
+3
+−
+2
+⋅
+1
+)
++
+1
+(
+1
+⋅
+5
+−
+2
+⋅
+1
+)
+=
+−
+4
+−
+𝑎
+(
+1
+)
++
+3
+=
+−
+1
+−
+𝑎
+.
+Δ=(1)(2⋅3−2⋅5)−a(1⋅3−2⋅1)+1(1⋅5−2⋅1)=−4−a(1)+3=−1−a.
+So 
+Δ
+=
+0
+Δ=0 ⇔ 
+𝑎
+=
+−
+1
+a=−1.
+
+For inconsistency (
+Δ
+=
+0
+Δ=0 but not all 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+  vanish), substitute 
+𝑎
+=
+−
+1
+a=−1 into, e.g., 
+Δ
+𝑥
+Δ 
+x
+​
+ . One finds 
+Δ
+𝑥
+≠
+0
+Δ 
+x
+​
+ 
+
+=0 unless 
+𝑏
+=
+9
+b=9.
+
+Answer: 
+  
+(
+𝑎
+,
+𝑏
+)
+=
+(
+−
+1
+,
+ 
+9
+)
+.
+(a,b)=(−1,9).
+
+Example 3 (Homogeneous plus spherical constraint)
+Find all real solutions to
+
+𝑃
+ 
+𝑥
+=
+0
+,
+∥
+𝑥
+∥
+2
+=
+1
+,
+Px=0,∥x∥ 
+2
+ =1,
+where
+
+𝑃
+=
+(
+1
+2
+1
+−
+2
+3
+−
+4
+1
+9
+−
+1
+)
+,
+𝑥
+=
+(
+𝑥
+,
+𝑦
+,
+𝑧
+)
+⊺
+.
+P= 
+​
+  
+1
+−2
+1
+​
+  
+2
+3
+9
+​
+  
+1
+−4
+−1
+​
+  
+​
+ ,x=(x,y,z) 
+⊺
+ .
+Solve 
+𝑃
+𝑥
+=
+0
+Px=0. Row-reduce or combine equations to get
+
+𝑦
+=
+2
+𝑘
+,
+𝑧
+=
+7
+𝑘
+,
+𝑥
+=
+−
+11
+𝑘
+,
+𝑘
+∈
+𝑅
+.
+y=2k,z=7k,x=−11k,k∈R.
+Impose 
+ 
+𝑥
+2
++
+𝑦
+2
++
+𝑧
+2
+=
+1
+x 
+2
+ +y 
+2
+ +z 
+2
+ =1:
+
+(
+−
+11
+𝑘
+)
+2
++
+(
+2
+𝑘
+)
+2
++
+(
+7
+𝑘
+)
+2
+=
+1
+  
+  
+⟹
+  
+  
+174
+ 
+𝑘
+2
+=
+1
+  
+  
+⟹
+  
+  
+𝑘
+=
+±
+1
+174
+.
+(−11k) 
+2
+ +(2k) 
+2
+ +(7k) 
+2
+ =1⟹174k 
+2
+ =1⟹k=± 
+174
+​
+ 
+1
+​
+ .
+Hence there are two unit-vector solutions.
+
+Example 4 (Homogeneous system, infinitely many solutions vs. none)
+A system
+
+{
+𝑥
++
+𝜆
+𝑦
+−
+𝑧
+=
+0
+,
+𝜆
+𝑥
+−
+𝑦
+−
+𝑧
+=
+0
+,
+𝑥
++
+𝑦
+−
+𝜆
+𝑧
+=
+0
+⎩
+⎨
+⎧
+​
+  
+x+λy−z=0,
+λx−y−z=0,
+x+y−λz=0
+​
+ 
+is homogeneous. One checks its coefficient determinant,
+Δ
+(
+𝜆
+)
+Δ(λ), and finds the values of 
+𝜆
+λ that make 
+Δ
+=
+0
+Δ=0. Those 
+𝜆
+λ-values give either infinitely many solutions (if all 
+Δ
+𝑥
+,
+Δ
+𝑦
+,
+Δ
+𝑧
+Δ 
+x
+​
+ ,Δ 
+y
+​
+ ,Δ 
+z
+​
+  also vanish) or else the trivial solution only.
+
+3. Key Takeaways
+Homogeneous vs. non-homogeneous systems.
+
+Use the determinant 
+Δ
+Δ of the coefficient matrix to decide:
+
+Δ
+≠
+0
+Δ
+
+=0 ⇒ unique solution.
+
+Δ
+=
+0
+Δ=0:
+
+all 
+Δ
+𝑖
+=
+0
+Δ 
+i
+​
+ =0 ⇒ infinitely many solutions;
+
+some 
+Δ
+𝑖
+≠
+0
+Δ 
+i
+​
+ 
+
+=0 ⇒ no solution.
+
+Cramer’s Rule for the unique-solution case: 
+𝑥
+𝑖
+=
+Δ
+𝑖
+/
+Δ
+x 
+i
+​
+ =Δ 
+i
+​
+ /Δ.
+
+For homogeneous systems with 
+Δ
+=
+0
+Δ=0, look for nontrivial solution families (one-parameter, two-parameter, …), then impose any extra constraint (e.g.\ a normalization 
+𝑥
+2
++
+𝑦
+2
++
+𝑧
+2
+=
+1
+x 
+2
+ +y 
+2
+ +z 
+2
+ =1) to select specific vectors.
+
+These ideas scale from 2×2 up to 3×3 (and beyond) systems.

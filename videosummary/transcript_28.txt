@@ -1,0 +1,28 @@
+✅ Math Concepts Identified
+1. Coordinates and Ordered Pairs
+Mentions of points like (6,2), (4,3), (3,4), (2,6) suggest the use of coordinate geometry.
+
+Possibly discussing plotting points on the Cartesian plane and comparing them.
+
+2. Speed-Time Graph
+Discussion includes:
+
+Speed and Time Relationship
+
+Graphical Representation
+
+The graph shows how speed varies with time.
+
+Mention of terms like:
+
+"Speed-O'd-A" = Speed of A
+
+"Time-O'd-A" = Time of A
+
+"increase" / "reverse" / "direct variation"
+
+This suggests students are:
+
+Learning about Direct Variation: If speed increases with time or not.
+
+Possibly analyzing linear or nonlinear relationships.
